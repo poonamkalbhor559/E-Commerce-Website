@@ -37,7 +37,7 @@ const Products = () => {
           <div className='space-y-2 border-2  border-2 py-10 px-0 rounded-lg bg-white'>
           <img className='h-48 w-32 mx-auto' src={product.image} alt="" />
           <h4 className='text-sm text-center min-h-[50px]'>{product.title}</h4>
-          <h4>{product.price}</h4>
+          <h4>${product.price}</h4>
           <button className ='bg-cyan-700 text-white p-1 rounded-md'onClick={() => handleAdd(product)}>
             Add to Cart
           </button>
