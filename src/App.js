@@ -4,7 +4,7 @@ import Cart from './pages/cart';
 import Home from './pages/home';
 import Navbar from './components/navbar';
 import { Provider } from 'react-redux';
-import store from './store/store';
+import store from './redux/store';
 
 function App() {
   return (

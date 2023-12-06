@@ -1,5 +1,5 @@
 import React from "react";
-import { removeItem } from "../store/cartslice";
+import { removeItem } from "../redux/cartslice";
 import { useSelector, useDispatch } from "react-redux";
 
 const Cart = () => {
